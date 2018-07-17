@@ -13,7 +13,10 @@ body {
     font-weight: 100;
     color: #beafb4;
 }
-#turan {
+#turan1 {
+    float: left;
+}
+#turan2 {
     float: right;
 }
 
