@@ -5,11 +5,14 @@
     <title>Topic Dealer</title>
 </head>
 <body>
-    <section id="time"></section>
-    <br/><br/>
-    <section id="topic"></section>
-    <br/><br/>
-    <div id="info">Auto-updates at 7 every morning.</div>
+    <div id='box'>
+        <section id="time"></section>
+        <br/><br/>
+        <section id="topic"></section>
+        <br/><br/>
+        <div id="info">Auto-updates at 7 every morning.</div>
+    </div>
+    
 </body>
 <script>
     var file = String();
@@ -56,7 +59,10 @@
 }
 #info {
     font-size: 12px;
-    text-align: right;
+    text-align: center;
+}
+#box{
+    max-width: 400;
 }
 </style>
 </html>
