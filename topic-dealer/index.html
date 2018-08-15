@@ -6,8 +6,10 @@
 </head>
 <body>
     <section id="time"></section>
-    <br/>
+    <br/><br/>
     <section id="topic"></section>
+    <br/><br/>
+    <div id="info">Auto-updates at 7 every morning.</div>
 </body>
 <script>
     var file = String();
@@ -44,8 +46,17 @@
     setInterval('showTopic()', 500);
 </script>
 <style>
-#time, #topic {
+#time {
     text-align: center;
+    font-size: 20px;
+}
+#topic {
+    text-align: center;
+    font-size: 40px;
+}
+#info {
+    font-size: 12px;
+    text-align: right;
 }
 </style>
 </html>
