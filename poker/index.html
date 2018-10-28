@@ -5,17 +5,31 @@
     <title>FAL</title>
 </head>
 <body>
-    <section class = "center">
-        <h1 id = "fal">Fight Against Landlord</h1>
+    <section class = "center", id = "head">
+        <br/>
+        <h1 id = "fal">FAL Home Page</h1>
+        <br/>
     </section>
     <section id = "content">
-        <p></p>
-        <div class = "center">
-            <a id = "download" 
-                href= "https://turandai.github.io/miniweb/poker/fal.exe" 
-                download="fal.exe">download
-            </a>
-            <p>Current version: alpha 0.1</p>
+        <div id = "team">
+            <p>Team member: </p>
+            <p class = "small">Owen Jin: Epic leader</p>
+            <p class = "small">Victor Chen: GUI genius</p>
+            <p class = "small">Turan Dai: Salty fish</p>
+            <br/><br/><br/>
+        </div>
+        <div id = "intro">
+            <p>Fighting Against Landlord(FAL)</p>
+            <p>It is a classic Chinese poker game.</p>
+            <a>For more information, </a>
+            <a href = "https://en.wikipedia.org/wiki/Dou_dizhu" target='_BLANK'>check this</a>
+            <div class = "center" id = "down">
+                <a id = "download" 
+                    href= "https://turandai.github.io/miniweb/poker/fal.exe" 
+                    download="fal.exe">Download
+                </a>
+                <p class = "tiny">Current version: alpha 0.1</p>
+            </div>
         </div>
         
     </section>
@@ -23,16 +37,52 @@
 </html>
 
 <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
     .center {
         text-align: center;
     }
-
-    #fal {
-        font-size: 60px;
+    #head {
+        background-color:rgb(135, 176, 199);
     }
+    #content {
 
+    }
+    #fal {
+        font-size: 50px;
+        font-weight: 500;
+    }
+    #intro {
+        float: right;
+        font-size: 30px;
+        margin-top: 4%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    #team {
+        float: left;
+        font-size: 30px;
+        margin-top: 4%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     #download {
         font-size: 40px;
+    }
+    #down {
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .small {
+        font-size: 25px;
+    }
+    .tiny {
+        font-size: 18px;
     }
 
 
