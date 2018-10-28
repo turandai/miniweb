@@ -11,27 +11,26 @@
         <br/>
     </section>
     <section id = "content">
-        <div id = "team">
+        <div id = "intro" class = "center">
+            <p>Fighting Against Landlord(FAL)</p>
+            <p>It is a classic Chinese poker game.</p>
+            <a>For more information, </a>
+            <a href = "https://en.wikipedia.org/wiki/Dou_dizhu" target='_BLANK'>check this</a>
+        </div>
+        <div id = "team" class = "center">
             <p>Team member: </p>
             <p class = "small">Owen Jin: Epic leader</p>
             <p class = "small">Victor Chen: GUI genius</p>
             <p class = "small">Turan Dai: Salty fish</p>
             <br/><br/><br/>
         </div>
-        <div id = "intro">
-            <p>Fighting Against Landlord(FAL)</p>
-            <p>It is a classic Chinese poker game.</p>
-            <a>For more information, </a>
-            <a href = "https://en.wikipedia.org/wiki/Dou_dizhu" target='_BLANK'>check this</a>
-            <div class = "center" id = "down">
+        <div class = "center" id = "down">
                 <a id = "download" 
                     href= "https://turandai.github.io/miniweb/poker/fal.exe" 
                     download="fal.exe">Download
                 </a>
                 <p class = "tiny">Current version: alpha 0.1</p>
             </div>
-        </div>
-        
     </section>
 </body>
 </html>
@@ -49,34 +48,38 @@
     #head {
         background-color:rgb(135, 176, 199);
     }
+    body {
+        background-color:rgb(119, 134, 146);
+    }
     #content {
-
+        background-color: rgb(145, 165, 179);
+        padding-bottom: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     #fal {
         font-size: 50px;
         font-weight: 500;
     }
     #intro {
-        float: right;
         font-size: 30px;
-        margin-top: 4%;
-        margin-left: 8%;
-        margin-right: 8%;
+        padding-top: 4%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
     #team {
-        float: left;
         font-size: 30px;
-        margin-top: 4%;
-        margin-left: 8%;
-        margin-right: 8%;
+        padding-top: 4%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
     #download {
         font-size: 40px;
     }
     #down {
-        margin-right: 10%;
-        margin-top: 5%;
-        margin-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-left: 10%;
     }
     .small {
         font-size: 25px;
