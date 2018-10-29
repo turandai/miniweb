@@ -1,93 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset = "utf-8">
-    <title>FAL</title>
-</head>
-<body>
-    <section class = "center", id = "head">
-        <br/>
-        <h1 id = "fal">FAL Home Page</h1>
-        <br/>
-    </section>
-    <section id = "content">
-        <div id = "intro" class = "center">
-            <p>Fighting Against Landlord(FAL)</p>
-            <p>A classic Chinese poker game.</p>
-            <a>For more information, </a>
-            <a href = "https://en.wikipedia.org/wiki/Dou_dizhu" target='_BLANK'>check this</a>
-        </div>
-        <div id = "team" class = "center">
-            <p>Team member: </p>
-            <p class = "small">Owen Jin: Epic leader</p>
-            <p class = "small">Victor Chen: GUI genius</p>
-            <p class = "small">Turan Dai: Salty fish</p>
-            <br/><br/><br/>
-        </div>
-        <div class = "center" id = "down">
-                <a id = "download" 
-                    href= "https://turandai.github.io/miniweb/poker/fal.exe" 
-                    download="fal.exe">Download
-                </a>
-                <p class = "tiny">Current version: alpha 0.1</p>
-            </div>
-    </section>
-</body>
+	<head>
+		<title>Star background</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- Vendors-->
+		<link rel="stylesheet" type="text/css" href="grid.css">
+
+
+		<!-- App & fonts-->
+		<link rel="stylesheet" type="text/css" id="app-stylesheet" href="main.css">
+	</head>
+	
+	<body>
+		<div class="page-wrap" id="root">
+			<!-- Content-->
+			<div class="md-content">
+				
+				<!-- hero -->
+				<div class="hero md-skin-dark">
+					<div id="particles-js" data-effect="star"></div>
+					
+					<!-- header -->
+					<div class="header">
+						<div class="header__left"><span>UESTC</span><span>CCSE</span><span>Class 2</span>
+						</div>
+					</div><!-- End / header -->
+					
+					<div class="container">
+						<div class="hero__wrapper">
+							<div class="row">
+								<div class="col-lg-10 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1 ">
+									<div class="hero__title_inner">
+										<h1 class="hero__title">Fight Against Landlord</h1>
+										<p class="hero__text">An Ultimate Chinese Poker Game.</p>
+										<a href = "https://en.wikipedia.org/wiki/Dou_dizhu" target='_BLANK'>learn more</a>
+									</div>
+								</div>
+							</div>
+							
+							<!-- countdown__module hide undefined -->
+							<div class="countdown__module hide undefined" data-date="2018/5/21">
+								<p><span>
+									<a id = "download" 
+										href= "https://turandai.github.io/miniweb/poker/fal.exe" 
+										download="fal.exe">Download
+									</a></span> version: Alpha 0.1</p>
+							</div><!-- End / countdown__module hide undefined -->
+							
+							<div class="service-wrapper">
+								
+								<!-- service -->
+								<div class="service">
+									<h2 class="service__title">Owen Jin</h2>
+									<p class="service__text">Epic leader</p>
+								</div><!-- End / service -->
+								
+								
+								<!-- service -->
+								<div class="service">
+									<h2 class="service__title">Victor Chen</h2>
+									<p class="service__text">GUI genius</p>
+								</div><!-- End / service -->
+								
+								
+								<!-- service -->
+								<div class="service">
+									<h2 class="service__title">Turan Dai</h2>
+									<p class="service__text">Salty fish</p>
+								</div><!-- End / service -->
+								
+							</div>
+						</div>
+					</div>
+				</div><!-- End / hero -->
+				
+			</div>
+			<!-- End / Content-->
+		</div>
+		<!-- Vendors-->
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.countdown.min.js"></script>
+		<script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript" src="waterpipe.js"></script>
+		<script type="text/javascript" src="jquery.mb.YTPlayer.min.js"></script>
+		<!-- App-->
+		<script type="text/javascript" src="main.js"></script>
+	</body>
 </html>
 
 <style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        border: 0;
-        padding: 0;
-    }
-    .center {
-        text-align: center;
-    }
-    #head {
-        background-color:rgb(135, 176, 199);
-    }
-    body {
-        background-color:rgb(119, 134, 146);
-    }
-    #content {
-        background-color: rgb(145, 165, 179);
-        padding-bottom: 100%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    #fal {
-        font-size: 50px;
-        font-weight: 500;
-    }
-    #intro {
-        font-size: 25px;
-        padding-top: 4%;
-        padding-left: 8%;
-        padding-right: 8%;
-        padding-bottom: 8%;
-    }
-    #team {
-        font-size: 30px;
-        padding-top: 4%;
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-    #download {
-        font-size: 35px;
-    }
-    #down {
-        padding-right: 10%;
-        padding-top: 5%;
-        padding-left: 10%;
-    }
-    .small {
-        font-size: 20px;
-    }
-    .tiny {
-        font-size: 15px;
-    }
-
-
+	#team {
+		
+	}
 </style>
